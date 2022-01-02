@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Delice D'Emine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="icon" href="photo/logo/icone.png">
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+     
+<!-- La partie la plus haut (Jumbotron)-->  
+<div class="jumbotron">
+    <div class="container text-center">
+      <h1><img src="photo/logo/logo.PNG" alt=""></h1> 
+    </div>
+  </div>
+
+
+<!-- La partie du menu (Navbar) -->  
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Accueil</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Les plus populaires </a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Plat Turc</a></li>
+        <li><a href="#">Desserts</a></li>
+        <li><a href="#">Boissons</a></li>
+        <li><a href="#">Nouveauté</a></li>
+        <li><a href="#">Nos vidéos</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Connection</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- La partie qui va contenir tout les infos avec les slide (Carousel) -->
+<div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+<!-- Les Indicateurs  -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
+    
+
+<!-- Les images qui vont déffilé  -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="photo/Populaire/lahmacun.jpg" alt="Image">
+              <div class="carousel-caption">
+                <h3>Lahmaçun</h3>
+                <p><strong>Pizza Turk</strong> </p>
+              </div>      
+            </div>
+    
+            <div class="item">
+              <img src="photo/Populaire/aubergine.jpg" alt="Image">
+              <div class="carousel-caption">
+                <h3>Karniyarik</h3>
+                <p><strong><span style="color: rgb(0, 0, 0);">Aubergines farcies</span> </strong> </p>
+              </div>      
+            </div>
+          </div>
+    
+
+<!--  Gauche et droite (Controleurs) -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Avant</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Après</span>
+          </a>
+        </div>
+      </div>
+
+
+<!-- Block à droite des diapo (Carousel) -->
+      <div class="col-sm-4">
+        <div class="well">
+          <p> <span style="color: red;"  ><strong>Bienvenu chez Delice D'Emine !</strong> </span> </p>
+          <p>Nous somme un service de repas turc fait maison en livraison à dommicile. </p>
+        </div>
+        <div class="well">
+           <p><span style="color: red;"><strong> Informations !</strong></span></p>
+           <p>Pour Préparer vos commandes avec des ingrédients les plus frais possible.</p>
+           <p>Nous avons besoin de <span style="color: red;"><strong> 10h minimum</strong></span> d'intervalle entre votre commande et la livraison.  </p>
+           <p><span style="color: red;"><strong> Exemple ! </strong></span></p>
+           <p>Je commande jeudi à <span style="color: red;"><strong> 10h.</strong></span> pour reçevoir à <span style="color: red;"><strong> 20h. </strong></span></p>
+        </div>
+       </div>
+    </div><hr>
+</div>
+
+
+ <!-- Plat turc -->
+ <div class="container text-center">    
+    <div class="titre">
+  <h3>Plat Turc :</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="photo/Plat/borek.jpg" class="img-responsive" style="width: 50%;" alt="Image">
+      <p><br> <strong>Borek</strong> </p>
+      <p>1€ lots de 2</p>
+    </div>
+    <div class="col-sm-3"> 
+        <img src="photo/Plat/cig-kofte.jpg" class="img-responsive" style="width:50%" alt="Image">
+      <p><br> <strong>Cig Cofte</strong> </p>
+      <p>1€ lots de 5</p>  
+        
+    </div>
+    <div class="col-sm-3"> 
+        <img src="photo/Plat/gozleme patatez.jpg" class="img-responsive" style="width:50%" alt="Image">
+        <p><br> <strong>Gozleme Patatezli</strong> </p>
+        <p>1€ lots de 3</p>    
+    </div>
+    <div class="col-sm-3"> 
+        <img src="photo/Plat/gozleme peynir.jpg" class="img-responsive" style="width:50%" alt="Image">
+        <p><br> <strong>Gozleme Peynirli</strong> </p>
+        <p>1€ lots de 3</p>    
+    </div>
+    <div class="col-sm-3"> 
+        <img src="photo/Plat/kofte.jpeg" class="img-responsive" style="width:50%" alt="Image">
+        <p><br> <strong>Kofte</strong> </p>
+        <p>3€ lots de 5</p>    
+    </div>
+    <div class="col-sm-3"> 
+        <img src="photo/Plat/kurufasulye.pilav.jpg" class="img-responsive" style="width:60%" alt="Image">
+        <p><br><br> <strong>Kurufasulye ve Pilav</strong> </p>
+        <p>5€ 1 Pers. </p>    
+    </div>
+    <div class="col-sm-3"> 
+        <img src="photo/Plat/manti.jpg" class="img-responsive" style="width:70%" alt="Image">
+        <p><br><br> <strong>Manti</strong> </p>
+        <p>5€ 1 Pers.</p>    
+    </div>
+    <div class="col-sm-3"> 
+        <img src="photo/Plat/menemen.jpeg" class="img-responsive" style="width:50%" alt="Image">
+        <p><br> <strong>Melemen</strong> </p>
+        <p>4€ 1 Pers.</p>   
+    </div>
+    
+    <div class="col-sm-3"> 
+        <img src="photo/Plat/sarma.jpg" class="img-responsive" style="width:50%" alt="Image">
+        <p><br> <strong>Sarma</strong> </p>
+        <p>5€ 1 Pers.</p>   
+    </div>
+    <div class="col-sm-3"> 
+        <img src="photo/Plat/sucuklu yumurta.jpg" class="img-responsive" style="width:50%" alt="Image">
+        <p><br> <strong>Suçuklu Yumurta</strong> </p>
+        <p>5€ 2 Pers.</p>      
+    </div>
+    <div class="col-sm-3"> 
+      <img src="photo/Plat/suçuk toast.jpeg" class="img-responsive" style="width:50%" alt="Image">
+      <p><br> <strong>Suçuklu Peynirli Toast</strong> </p>
+      <p>4€ 1 Pers.</p>     
+  </div>
+  <div class="col-sm-3">
+    <img src="photo/Plat/borek.jpg" class="img-responsive" style="width: 50%;" alt="Image">
+    <p><br> <strong>Borek</strong> </p>
+    <p>1€ lots de 2</p>
+  </div>
+
+
+
+
+ <!-- Séparrateur de block -->
+    </div>
+  <br>
+  <br>
+
+<hr>
+
+
+    <!-- Dessert -->
+    <div class="container text-center">    
+        <div class="titre">
+      <h3>Desserts :</h3>
+      <br>
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="photo/Dessert/baklava.jpeg" class="img-responsive" style="width: 50%;" alt="Image">
+          <p><br> <strong>Baklava</strong> </p>
+          <p>1€ lots de 3</p>
+        </div>
+        <div class="col-sm-3"> 
+            <img src="photo/Dessert/sekerpare.jpg" class="img-responsive" style="width:50%" alt="Image">
+          <p><br> <br> <br> <strong>Sekerpare</strong> </p>
+          <p>1€ lots de 3</p>    
+        </div>
+        <div class="col-sm-3"> 
+            <img src="photo/Dessert/Loukoum.jpg" class="img-responsive" style="width:50%" alt="Image">
+            <p><br> <br> <strong>Lokum</strong> </p>
+            <p>1€ lots de 5</p>    
+          </div>
+      </div>
+      <br>
+      <br>
+    <!-- Séparrateur de block -->
+      <hr>
+</div>
+
+
+
+    <!-- Block Boissons -->
+    <div class="container text-center">    
+        <div class="titre">
+      <h3>Boissons :</h3>
+      <br>
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="photo/Boisson/ayran.png" class="img-responsive" style="width: 50%;" alt="Image">
+          <p><br> <strong>Ayran 1L</strong> </p>
+          <p>2,50€</p>
+        </div>
+        <div class="col-sm-3"> 
+          <img src="photo/Boisson/coca cola.png" class="img-responsive" style="width:50%" alt="Image">
+          <p><br> <strong>Coca Cola 1.5L </strong> </p>
+          <p>3,50€</p>    
+        </div>
+        <div class="col-sm-3"> 
+            <img src="photo/Boisson/orangina.jpg" class="img-responsive" style="width:50%" alt="Image">
+            <p><br> <strong>Orangina 33cl</strong> </p>
+            <p>1,50€</p>    
+          </div>
+          <div class="col-sm-3"> 
+              <br>
+            <img src="photo/Boisson/cay.png" class="img-responsive" style="width:50%" alt="Image">
+            <p><br> <strong>Thé turc</strong> </p>
+            <p>1,00€</p>    
+          </div>
+          <div class="col-sm-3"> 
+            <img src="photo/Boisson/oasis.jpg" class="img-responsive" style="width:50%" alt="Image">
+            <p><br> <strong>Oasis 33cl</strong> </p>
+            <p>1,50€</p>    
+          </div>
+          <div class="col-sm-3"> 
+            <img src="photo/Boisson/coca.jpg" class="img-responsive" style="width:50%" alt="Image">
+            <p><br> <strong>Coca cola 33cl</strong> </p>
+            <p>1,50€</p>    
+          </div>
+          <div class="col-sm-3"> 
+            <img src="photo/Boisson/kizi.png" class="img-responsive" style="width:50%" alt="Image">
+            <p><br> <br> <strong>Boisson péttillante turc</strong> </p>
+            <p>1,50€</p>    
+          </div>
+          <div class="col-sm-3"> 
+            <img src="photo/Boisson/bouteille d'eau.jpg" class="img-responsive" style="width:50%" alt="Image">
+            <p><br>  <strong>Bouteille d'eau 1.5L</strong> </p>
+            <p>1,50€</p>    
+          
+        </div>
+ <!-- Séparrateur de block -->
+      </div>
+
+
+    <br>
+    <br>
+    </div>
+
+
+<!-- formulaire -->
+<footer>
+  <div class="content-footer">
+    <div class="bloc footer-services">
+      <h3>Services</h3>
+      <ul class="services-list">
+        <p>✔️ Commandé une demi-journée à l'avance(12h). </p>
+        <p>✔️ Livraison Gratuite à Saint-Brice, Sarcelles.</p>
+        <p>✔️ Du Lundi au Dimanche 10h-20h.</p> 
+      </ul>
+    </div>
+
+    <div class="bloc footer-contact">
+      <h3>Contact & Infos</h3>
+      <p>emine.delice@gmail.com</p>
+      <p>07-67-58-23-63</p>
+    
+    </div>
+
+    <div class="bloc footer-medias">
+      <h3>Réseaux Sociaux</h3>
+      <ul class="media-list">
+      
+        <li>
+          <a >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fab"
+              data-icon="instagram"
+              class="svg-inline--fa fa-instagram fa-w-14"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              ></path>
+            </svg>
+            Delice.Emine</a
+          >
+        </li>
+        <li>
+          <a >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fab"
+              data-icon="twitter"
+              class="svg-inline--fa fa-twitter fa-w-16"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+              ></path>
+            </svg>
+            Delice.Emine</a
+          >
+        </li>
+        <li>
+     
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+</body>
+</html>
+
+
